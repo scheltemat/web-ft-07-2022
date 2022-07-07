@@ -97,16 +97,120 @@
 # print(pos)
 
 
-name = input("What is your name>> ")
-age = input("What is your age>> ") # 2022- age
+# name = input("What is your name>> ")
+# age = input("What is your age>> ") # 2022- age
 
-age = int(age) #converts str to an int  --- casting
-print(name)
+# age = int(age) #converts str to an int  --- casting
+# print(name)
 
 
-print(type(name))
-print(type(age))
+# print(type(name))
+# print(type(age))
 
-birth_year = 2022 - age 
+# birth_year = 2022 - age 
 
-print(birth_year)
+# print(birth_year)
+
+# print(7 >= 9)
+
+# a = not False 
+# b  = True 
+
+# c = a or b
+
+# print(a)
+
+# print(1)
+# print(2)
+
+# print('before')
+# age = 25
+# if (age == 26):  #True
+#     print(3)
+#     print(4)
+#     print(5)
+# elif( age== 25):
+#     print(26)
+# else: #default
+#     print(5.5)
+    
+# print('after')
+    
+# print(6)
+# print(7)
+
+# 1. add
+# 2. subtract
+# 3. multipy
+# 4. divide 
+
+# accept 2 numbers from our user
+
+
+# choice = int(input("""
+# 1. add
+# 2. subtract
+# 3. multipy
+# 4. divide              
+# """))
+
+# num1 = int(input('enter num 1 >>'))
+# num2 = int(input('enter num 2 >>'))
+
+# if choice == 1 :
+#     result = num1 + num2
+# elif choice == 2: 
+#     result = num1 - num2 
+# elif choice == 3: 
+#     result = num1 * num2 
+# elif choice == 4: 
+#     result = num1 / num2
+# else: 
+#     result = 'this is not a menu choice'
+    
+# print(result)
+
+
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+# print('hello world')
+
+# count = 0 
+
+
+print('before loop')
+
+while count < 10: # 11 < 10
+    print('hello world')
+    count = count + 1  # 3
+    # count *=1
+    
+print('outside loop')
+
+answer = ''
+
+while answer != 'when':  #WheN
+    answer = input('Say when: ')
+    answer = answer.lower() #when
+    
+print('Cheese')
+
+
+
