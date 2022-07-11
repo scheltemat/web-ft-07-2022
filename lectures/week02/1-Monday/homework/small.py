@@ -1,3 +1,5 @@
+
+
 # 1. Sum the Numbers
 # Create a list of numbers, print their sum.
 arr1 = [4, 2, 5, 7, 23, 6, 5]
