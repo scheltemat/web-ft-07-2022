@@ -17,6 +17,9 @@
 # Aquarius - The Thinker
 # Pisces - TheMystic
 
+import email
+
+
 zodiac = {
     "Aries": "The Warrior",
     "Taurus": "The Builder",
@@ -63,7 +66,8 @@ phonebook_dict['Bob'] = '968-345-2345'
 
 # 2e. Print all the phone entries.
 
-print(phonebook_dict)
+for i in phonebook_dict.keys():
+    print(f"{i} : {phonebook_dict[i]}")
 
 
 #? 3. Nested dictionaries
@@ -86,9 +90,20 @@ ramit = {
     ]
 }
 # 3a. Write a python expression that gets the email address of Ramit.
+
+ramit['email']
+
 # 3b. Write a python expression that gets the first of Ramit's interests.
+
+ramit['interests'][0]
+
 # 3c. Write a python expression that gets the email address of Jasmine.
+
+ramit['friends'][0]['email']
+
 # 3d. Write a python expression that gets the second of Jan's two interests.
+
+ramit['friends'][1]['interests'][1]
 
 
 #? 4. Letter Summary
