@@ -1,6 +1,4 @@
 
-
-
 #? 1. Create a dictionary called zodiac with the following information.
 #? Each key is the name of the zodiac
 

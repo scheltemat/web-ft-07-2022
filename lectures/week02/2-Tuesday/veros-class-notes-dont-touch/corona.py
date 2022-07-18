@@ -11,7 +11,13 @@
 # California
 # cases: 1106235 
 # recovered: 899579
-# active: 186438
+# active: 186438 
+
+
+#  total recovered
+# optional
+#  state with the most recovered
+#  state with the least recovered
 
 data = [
     {

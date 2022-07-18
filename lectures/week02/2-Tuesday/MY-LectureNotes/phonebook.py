@@ -27,7 +27,7 @@ def look_up():
               name: {name}
               phone number: {number}""")
     else:
-        print(f"entry does not exist in phonebook")
+        print(f"'{name}' does not exist in phonebook")
         spacer()
     
 
