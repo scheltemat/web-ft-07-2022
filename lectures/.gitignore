@@ -45,9 +45,9 @@ file.sh
 
 # week03
 # /week03/1-Monday
-/week03/1-Monday/homework
-/week03/2-Tuesday
-/week03/2-Tuesday/homework
+# /week03/1-Monday/homework
+# /week03/2-Tuesday
+# /week03/2-Tuesday/homework
 /week03/3-Wednesday
 /week03/3-Wednesday/homework
 /week03/4-Thursday

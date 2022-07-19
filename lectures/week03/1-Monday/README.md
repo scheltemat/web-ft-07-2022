@@ -22,14 +22,15 @@ After completing this lesson, you will be able to:
 ## 📍Agenda
 
 ## 🟡 Lecture Presentations
-- [HTML](https://dc-houston.herokuapp.com/HTMLCSS/HTML.html#1)
-- [CSS](https://dc-houston.herokuapp.com/HTMLCSS/CSS.html#1)
-<!-- - [CSS Measurement Units](https://app.schoology.com/page/1643095901) -->
-<!-- - [HTML](https://dc-houston.herokuapp.com/p2/HTMLCSS/HTML.html#1)
-- [CSS](https://dc-houston.herokuapp.com/p2/HTMLCSS/CSS.html#1)
-- [CSS Measurement Units](https://app.schoology.com/page/1643095901) -->
 
-<!-- ## 🟣Labs  -->
+<!-- - [CSS Measurement Units](https://app.schoology.com/page/1643095901) -->
+- [HTML](https://dc-houston.herokuapp.com/p2/HTMLCSS/HTML.html#1)
+- [CSS](https://dc-houston.herokuapp.com/p2/HTMLCSS/CSS.html#1)
+<!-- - [CSS Measurement Units](https://app.schoology.com/page/1643095901) -->
+
+## 🟣Labs 
+
+[lab](https://github.com/veros-labs/lab-fe-html-css)
 
 ## 🟠Homework
 
