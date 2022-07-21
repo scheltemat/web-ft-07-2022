@@ -19,13 +19,17 @@ After completing this lesson, you will be able to:
 
 <!-- ## 📍Agenda -->
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [Flexbox](https://dc-houston.herokuapp.com/p2/HTMLCSS/FlexBox.html#1)
-- [Style Guide](https://dc-houston.herokuapp.com/p2/HTMLCSS/StyleGuide.html#1) -->
+<!-- - [Style Guide](https://dc-houston.herokuapp.com/p2/HTMLCSS/StyleGuide.html#1) -->
 
-<!-- ## 🟣Labs 
+## 🟣Labs 
 
-## 🟠Homework  -->
+- [lab for lecture](https://github.com/veros-labs/flexbox-labs-lecture)
+- [pair programming](https://github.com/veros-labs/fe-flexbox-card-layout)
+
+## 🟠Homework 
+- [flexbox layouts](https://digitalcrafts.instructure.com/courses/212/assignments/7358?module_item_id=39247)
 
 ## 🔵Helpful Videos
 - [CSS Flexbox Tutorial for Beginners | Basics & Container ](https://www.youtube.com/watch?v=siKKg8Y_tQY)
