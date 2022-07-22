@@ -1,6 +1,3 @@
-
-
-
 #1. Given a list ["Elie", "Tim", "Matt"], return a new list with only the first letter (["E", "T", "M"])
 
 #2. Print out the numbers 1-10 from the list below
