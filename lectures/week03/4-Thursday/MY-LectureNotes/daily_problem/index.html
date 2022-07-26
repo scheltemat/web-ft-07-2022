@@ -1,12 +1,19 @@
+sky
+amethyst
+cyan
+tan
+coral
+rose
+rose
+orange
+azure
+grey
+lemon
+taupe
+blue
+teal
+cyan
 
-import color_data 
-
-#? Loop through the colors data and display each color on an html page. 
-#* to run the file:  python3 colorsProblem.py > index.html
-
-color_data = color_data.colors
-
-html = """
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,18 +34,9 @@ html = """
     </style>
 </head>
 <body>
-"""
 
-#? Write code here
-
-for i in color_data:
-    html+=f'\t<div style="background-color :{i["hex_value"]};" ></div>\n'
-
-html += """
 
 </body>
 </html>
 
-"""
 
-print(html)
