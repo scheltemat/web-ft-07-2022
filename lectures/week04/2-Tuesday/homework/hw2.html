@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let body = document.querySelector("body")
+
+        let div = document.createElement("div")
+        div.setAttribute("class", "header")
+        body.appendChild(div)
+
+
+        let h1 = document.createElement("h1")
+        h1.setAttribute("class", "pads normal-font")
+        h1.innerText = "HighOnCoding"
+        div.appendChild(h1)
+
+
+        let header = document.querySelector(".header")
+        header.style.backgroundColor = "#67A7F3"
+        header.style.color = 'white'
+        header.style.paddingTop = "3%"
+        header.style.paddingBottom = "3%"
+        header.style.marginBottom = "20px"
+
+
+        let a = document.createElement("a")
+        a.setAttribute("class", "pads active")
+        a.setAttribute("href", "index.html")
+        a.innerText = "Home"
+        div.appendChild(a)
+
+
+        let a2 = document.createElement("a")
+        a2.setAttribute("class", "pads inactive")
+        a2.setAttribute("href", "categories.html")
+        a2.innerText = "Categories"
+        div.appendChild(a2)
+
+
+        let headerA = document.querySelector("a")
+        headerA.style.color = "white"
+        headerA.style.textDecoration = "none"
+
+
+        let div2 = document.createElement("div")
+        div2.setAttribute("class", "tight")
+        body.appendChild(div2)
+
+
+        let innerDiv = document.createElement("div")
+        innerDiv.setAttribute("class", "gray")
+        div2.appendChild(innerDiv)
+
+
+        let h2 = document.createElement("h2")
+        h2.innerText = "Curse of the Current Reviews"
+        innerDiv.appendChild(h2)
+
+
+        function makePtag(innerText){
+            let p = document.createElement("p")
+            p.innerText = innerText
+            return p
+        }
+
+
+        let p1 = makePtag("When you want to buy any application from the Apple iTunes store you have more choices than you can handle. Most of the users scroll past the application description completely avoiding it like ads displayed on the right column of your webpage. Their choice is dependent on three important factors price, screenshot and reviews.")
+        innerDiv.appendChild(p1)
+
+
+        let innerDiv2 = document.createElement("div")
+        div2.appendChild(innerDiv2)
+
+
+        let h3 = document.createElement("h3")
+        h3.innerText = "Hello WatchKit"
+        innerDiv2.appendChild(h3)
+
+
+        let p2 = makePtag("Last month Apple released the anticipated WatchKit Framework for developers in the form of iOS 8.2 beta SDK release. The WatchKit framework enables the developers to creat Apple Watch applications. In this article we focus on the basics of getting started with the WatchKit and developing apps for the Apple Watch.")
+        innerDiv2.appendChild(p2)
+
+
+        let innerDiv3 = document.createElement("div")
+        div2.appendChild(innerDiv3)
+
+
+        let p4 = makePtag("15 comments")
+        p4.setAttribute("class", "same-line")
+        innerDiv3.appendChild(p4)
+
+
+        let p5 = makePtag("124 likes")
+        p5.setAttribute("class", "same-line")
+        innerDiv3.appendChild(p5)
+
+
+        let innerDiv4 = document.createElement("div")
+        div2.appendChild(innerDiv4)
+
+
+        let h3_2 = document.createElement("h3")
+        h3_2.innerText = "Introduction to Swift"
+        innerDiv4.appendChild(h3_2)
+
+
+        let p6 = makePtag("Swift is a modern programming language developed by Apple to create the next generation of iOS and OSX applications. Swift is a fairly new language and still in development but it clearly reflects the intentions and the future direction. This article will revolve around the basic concepts in the Swift language and how you can get started")
+        innerDiv4.appendChild(p6)
+
+
+        let innerDiv5 = document.createElement("div")
+        innerDiv5.setAttribute("class", "feedback-box")
+        div2.appendChild(innerDiv5)
+
+
+        let p7 = makePtag("15 comments")
+        p7.setAttribute("class", "same-line")
+        innerDiv5.appendChild(p7)
+
+
+        let p8 = makePtag("45 likes")
+        p8.setAttribute("class", "same-line")
+        innerDiv5.appendChild(p8)
+
+
+
+
+
+    </script>
+</body>
+</html>

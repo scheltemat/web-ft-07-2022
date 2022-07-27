@@ -20,16 +20,16 @@ After completing this lesson, you will be able to:
 
 ## 📍Agenda
 
-<!-- ## 🟡 Lecture Presentations
-- [DOM](http://dc-houston.herokuapp.com/p2/Javascript/DOM.html#1) -->
+## 🟡 Lecture Presentations
+- [DOM](http://dc-houston.herokuapp.com/p2/Javascript/DOM.html#1)
 
-<!-- ## 🟣Labs  -->
-<!-- - [dom exercises](https://github.com/veros-labs/lab-js-dom) -->
-<!-- - [coronavirus](https://github.com/veros-labs/js-lab-coronavirus) -->
+## 🟣Labs 
+- [dom exercises](https://github.com/veros-labs/lab-js-dom)
+- [coronavirus](https://github.com/veros-labs/js-lab-coronavirus)
 
 <!-- ## 🟠Homework -->
 
-<!-- [dom hw](./homework/) -->
+[dom hw](./homework/)
 
 ## 🔵Helpful Videos
 
