@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning DOM</title>
+</head>
+<body>
+    
+    Hello world
+
+    <div id="someDiv" >
+        <ul>
+            <li class="dc">one  <p></p></li>
+            <li class="dc">two</li>
+            <li class="dc">three</li>
+            <li class="dc">4</li>
+            <li class="dc">5</li>
+        </ul>
+    </div>
+
+
+    <span class="world">this is a span tag</span>
+    <span class="world">this is a span tag</span>
+    <span class="world">this is a span tag</span>
+    <span class="world">this is a span tag</span>
+    <span class="world">this is a span tag</span>
+
+    <a href="http://www.google.com">Google</a>
+    <img id="puppies" src="" alt="">
+
+    <script>
+
+
+        // let span = document.getElementsByTagName('span')[0]  //node 
+
+        // span.textContent = "<div>hello</div>"
+        // span.innerHTML = `<div id="hello">hello</div>`
+        // console.log(span.textContent)
+
+        // let hello = document.getElementById('hello')
+
+        // console.log(hello)
+
+        // let img = document.getElementById('puppies')  //a node
+
+        // img.setAttribute('src', "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Golde33443.jpg/640px-Golde33443.jpg")
+        // console.log(img)
+
+
+        // let anchor = document.getElementsByTagName('a')[0]  //anchor is node 
+
+        // let url = anchor.getAttribute('href')
+
+        // console.log(url)
+        
+
+
+        // find all of the span tags 
+        // retreive 1 tag from the list 
+
+        // let spanTags = document.getElementsByTagName('span')
+
+        // [{}, {}, {}, {}, {}]
+        //   0   1  2   3    4
+        // spanTags[0]
+        // spanTags[1]
+        // spanTags[2]
+        //
+
+        // for(let i =0; i< spanTags.length; i++){ // 0 1 2 3 4 5
+
+        //     spanTags[i].innerText = "hello world"
+
+        // }
+
+        // console.log(spanTags)
+
+        // let firstSpanTag = spanTags[0]
+
+        // console.log(firstSpanTag.innerText)
+
+        // firstSpanTag.innerText = "new content"
+
+        // let div = document.getElementById('someDiv')
+
+        // let liTags = document.getElementsByClassName('dc')
+
+        // let tags = document.getElementsByTagName('li')
+
+        // console.log(liTags)
+        // console.log(tags)
+
+        // let myObj = {
+        //     firstName: "Nomi"
+        // }
+
+        // myObj.firstName = "Christian"
+
+        // console.log(myObj)
+    </script>
+</body>
+</html>

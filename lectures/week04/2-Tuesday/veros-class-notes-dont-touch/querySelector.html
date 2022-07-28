@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+
+        }
+        .happy{
+
+        }
+        .sad{
+
+        }
+
+        #happyPerson{
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="happy sad">This is a great day</div>
+    <div>This is a great day</div>
+    <div>This is a great day</div>
+    <div id="happyPerson">This is a great day</div>
+
+
+    <script>
+
+        // let divs = document.querySelector('div') // retursn 1 result bc of querySelector 
+        let divs = document.querySelectorAll('div') // retursn a NodeList array
+        // console.log(divs)
+
+        let emotionalDivs = document.querySelectorAll('.happy, .sad')
+
+        // console.log(emotionalDivs)
+
+        let happyPerson = document.querySelector('#happyPerson')
+        console.log(happyPerson)
+    </script>
+</body>
+</html>
