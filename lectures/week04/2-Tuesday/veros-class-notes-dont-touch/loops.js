@@ -15,8 +15,8 @@
 // }
 
 
-let str2 = "don’t know why";
-let haveY = false
+// let str2 = "don’t know why";
+// let haveY = false
 
 // loop through each letter of string 
 // if statement (is y in this string?)
@@ -24,21 +24,28 @@ let haveY = false
 // once we find y, print true 
 
 
-for(let i = 0; i< str2.length; i++){
+// for(let i = 0; i< str2.length; i++){
 
-    // console.log(str2[i])
-    if(str2[i] == 'y'){
-        haveY = true
-    }
+//     // console.log(str2[i])
+//     if(str2[i] == 'y'){
+//         haveY = true
+//     }
     
-}
+// }
 
 
-if(haveY == true){
-    console.log('yes')
-}
-else{
-    console.log('no')
+// if(haveY == true){
+//     console.log('yes')
+// }
+// else{
+//     console.log('no')
+// }
+
+
+let test = (a, b, c) => {
+
+    return a + 5 +b
 }
 
+console.log(test(3,6));
 

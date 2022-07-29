@@ -19,14 +19,14 @@ After completing this lesson, you will be able to:
 
 <!-- ## 📍Agenda -->
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [Functions](http://dc-houston.herokuapp.com/p2/Javascript/Functions.html#1)
-- [Anonymous Functions & Callbacks](http://dc-houston.herokuapp.com/p2/Javascript/AnonymousFunctions_Callbacks.html#1) -->
+- [Anonymous Functions & Callbacks](http://dc-houston.herokuapp.com/p2/Javascript/AnonymousFunctions_Callbacks.html#1)
 
 <!-- - [Big O](http://dc-houston.herokuapp.com/p2/Algorithm/BigO.html#1) -->
 
-<!-- ## 🟣Labs
-- [lab](https://github.com/veros-labs/lab-js-callbacks-anon-functions) -->
+## 🟣Labs
+- [lab](https://github.com/veros-labs/lab-js-callbacks-anon-functions)
 <!-- ## 🟠Homework
 - [functions](./homework)  -->
 
