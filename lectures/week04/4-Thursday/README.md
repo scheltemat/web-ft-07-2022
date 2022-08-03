@@ -15,18 +15,18 @@ After completing this lesson, you will be able to:
 
 <!-- ## 📍Agenda -->
 
-<!-- ## 🟡 Lecture Presentations
-- [Event Handling](https://dc-houston.herokuapp.com/p2/Javascript/EventHandling.html#1) -->
+## 🟡 Lecture Presentations
+- [Event Handling](https://dc-houston.herokuapp.com/p2/Javascript/EventHandling.html#1)
 
-<!-- ## 🟣Labs
-[small and medium exercises](https://learn.digitalcrafts.com/immersive/lessons/handling-user-input/handling-browser-events/exercises/#setup)  -->
+## 🟣Labs
+[small and medium exercises](https://github.com/veros-labs/lab-js-event-listening.git) 
 
-<!-- ## 🟠Homework  -->
+## 🟠Homework 
 
-<!-- *Work on building a calculator today in groups.  If you don't get completely done, it's okay.* 
+*Work on building a calculator today in groups.  If you don't get completely done, it's okay.* 
 - [Calculator - Group Exercise](https://github.com/vlino2015/calculator)
 
-*You will have all day Monday and Tuesday to work on this assignment, but get started on it as soon as possible*
+<!-- *You will have all day Monday and Tuesday to work on this assignment, but get started on it as soon as possible*
 - [blackjack game](https://github.com/DigitalCraftsStudents/blackjack-exercise) -->
 
 ## 🔵Helpful Videos

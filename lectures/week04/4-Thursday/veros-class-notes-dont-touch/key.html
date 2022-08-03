@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // retrieve element 
+
+        let body = document.querySelector('body')
+
+        // attach event listenter to our body node 
+
+        body.addEventListener('keydown', (e)=>{
+
+            if(e.key === 'p'){
+                // change the background of the body tag to purple 
+
+                body.style.background ='pink'
+            }
+
+        })
+
+        body.addEventListener('keyup', e=>{
+
+            if(e.key == 'p'){
+                body.style.background = 'white'
+            }
+        })
+
+    </script>
+</body>
+</html>
