@@ -1,0 +1,111 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    
+    <style>
+
+        body{
+            background-color: rgb(179, 178, 178);
+        }
+
+        .title{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .container{
+            margin: 0px;
+            margin-top: 20px;
+        }
+        .row{
+            padding: 10px;
+            width: 100vw;
+        }
+
+    </style>
+
+
+</head>
+
+
+
+<body>
+
+    <div class="title">
+        <h1>Game of Thrones Characters</h1>
+    </div>
+
+    <div class="container container-fluid">
+
+        <div class="row d-flex">
+
+        </div>
+
+    </div>
+
+    <!-- <ul class="character-list"></ul> -->
+
+    <script>
+
+        // start here -----------------------------------------
+
+        let htmlFragment = ""
+        let container = document.querySelector('.row')
+        // let card = document.querySelector('.card')
+        // container.appendChild(card)
+
+        const getCharacters = async () => {
+
+            let characterArr = []
+            let houseArr = []
+
+            for (let i = 1; i <= 5; i++){
+
+                let character = await fetch(`https://www.anapioficeandfire.com/api/characters?page=${i}&pageSize=50`)
+
+                let format = await character.json()
+                characterArr = [...characterArr, ...format]
+                
+            }
+            console.log(characterArr); // array of character objects
+
+            // characterArr = array of characters
+            // characterArr[i] = individual character
+            // characterArr[i].allegiances = individual character's house array
+            // characterArr[i].allegiances[0] = individual character's first house
+
+            for(let i = 0; i < characterArr.length; i++){
+                if(characterArr[i].allegiances.length >= 1){
+
+                    let result = await fetch(characterArr[i].allegiances[0])
+                    let house = await result.json()
+
+                    // console.log(house);
+
+                    htmlFragment += `<div class="card col-4">${characterArr[i].name} ... House: <a href="${house.url}">${house.name}</a></div>`
+
+                    // console.log(object);
+                }
+                else{
+                    htmlFragment += `<div class="card col-4">${characterArr[i].name} ... House: no house</div>`
+                }
+                container.innerHTML = htmlFragment
+            }
+        }
+        getCharacters()
+
+    </script>
+    
+</body>
+</html>
