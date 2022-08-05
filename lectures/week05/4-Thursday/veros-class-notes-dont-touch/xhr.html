@@ -8,7 +8,42 @@
 </head>
 <body>
     
+    <ul></ul>
 
-    
+    <script>
+
+        let xhr = new XMLHttpRequest();
+
+        xhr.open('GET', 'https://jsonplaceholder.typicode.com/photos')  //GET, url
+
+        xhr.send()
+
+        xhr.onreadystatechange = ()=>{  //event listener
+
+            if(xhr.readyState == 4  && xhr.status ==200){
+                // data has successfully arrived
+
+                // console.log(xhr.responseText)
+                
+                let data = JSON.parse(xhr.responseText) //array of objects [{}, {},{},]  data[i]
+
+                // console.log(data)
+                let htmlFrament = ""
+                data.forEach(obj=>{
+
+                    htmlFrament += `<li>${obj.title}</li>`
+                })
+
+                console.log(htmlFrament)
+
+                let ul = document.querySelector('ul')
+
+                ul.innerHTML = htmlFrament;
+            }
+        }
+
+        console.log('hello world')
+
+    </script>
 </body>
 </html>
