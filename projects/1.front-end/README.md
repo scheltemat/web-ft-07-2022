@@ -1,6 +1,21 @@
 # Frontend Group Project
 
+- [Groups](./GROUPS.md)
+
 - [Front End Guide](https://dc-houston.herokuapp.com/p2/GroupProjects/frontEnd.html#1)
+- [Local Storage](https://dc-houston.herokuapp.com/p2/Javascript/LocalStorage.html#1)
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Local Storage](https://dc-houston.herokuapp.com/p2/Javascript/LocalStorage.html#1)
+
+
+- [APIs](./APIS.md)
+- [Libraries](./Libraries.md)
+- [Resources](./resources.md)
+
+## Project Kickoff
+
+* Front End Project start: __Monday, June 7th__.
+* Front End Project presentation: __Monday, June 14th__.
 
 ## Description
 * Your task is to build something awesome with your team!
@@ -14,7 +29,7 @@
 * Javascript loads correctly and doesn't have any console errors
 
 ## Workflow Requirements
-* Work in groups
+* You'll be working in [assigned groups](./GROUPS.md).
 * Use agile methodolgy (daily standups)
 * Create github repo (add all group members as collaborators)
   * Collaborate using PRs (Pull Requests), making sure to tag a reviewer for approval
