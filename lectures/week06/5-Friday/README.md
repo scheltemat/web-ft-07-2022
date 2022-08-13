@@ -1,4 +1,4 @@
-# Week 6 - Thursday: Project Week
+# Week 6 - Friday: Project Week
 
 Presentations: Monday, August 15th
 
