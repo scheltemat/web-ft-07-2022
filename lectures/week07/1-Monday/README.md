@@ -20,7 +20,6 @@ After completing this lesson, you will be able to:
 <!-- - [AWS S3](http://dc-houston.herokuapp.com/p2/AWS/AWS-s3.html#1) -->
 - [Node 101](https://dc-houston.herokuapp.com/p2/Node/Node101.html)
 
-
 <!-- ## 🟣Labs 
 
 ## 🟠Homework  -->
