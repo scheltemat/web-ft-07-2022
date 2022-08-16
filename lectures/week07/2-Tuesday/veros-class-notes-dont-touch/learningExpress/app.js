@@ -121,6 +121,8 @@ app.get('/dog', (req, res)=>{
     })
 
     res.send(htmlFragment)
+
+    // res.json(data)
 })
 
 // localhost:3000/dogs/3
