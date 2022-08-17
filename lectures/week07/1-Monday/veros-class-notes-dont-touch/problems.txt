@@ -1,0 +1,243 @@
+
+Shannon 
+
+
+Yvonne 
+
+<div id="submit">Click Me</div>
+
+Write a function changes the value of this div to say "Hello World" 
+
+function () => {
+  word = getdocument.querySelector(".submit")
+  
+}
+
+Nomi
+
+Write a function that sums the numbers from 1-10
+
+ 
+
+Thomas 
+Write a function that console logs the numbers from 1 to n. But for multiples of three print "fizz" instead of the number and for the multiples of five print "buzz". For numbers which are multiples of both three and five print "fizzbuzz".
+
+function printNums(n){
+
+    for (let i = 1; i <= n; i++){
+        if (n % 3 == 0){
+            console.log("fizz")
+        }
+
+        else if (n % 5 == 0){
+            console.log("buzz")
+        }
+
+        else if (n % 15 == 0){
+            console.log("fizzbuzz")
+        }
+
+        else{
+            console.log(n)
+        }
+    }
+}
+printNums(30)
+
+
+Joy 
+
+
+Given a string, Write a function that returns the character that is most commonly used in the string.
+
+yourFunctionName('abccccddde') ---> c
+yourFunctionName('1111112345') ---->1
+
+function findCommon(str){
+//create an empty obj for storage
+let storage= {}
+for(let i=0; i < str.length; i++){
+  if(str[i] not in storage.str[i]){
+    //add the key into storage
+    storage.str[i]  = 1;
+
+  }
+  //if the element exists, increase by 1. 
+  else{
+    storage.str[i] += 1;
+  }
+
+}
+// loop through the storage to find the greatest number
+
+//return that key
+
+
+
+
+//return the highest number element
+
+}
+
+Christian https://youtu.be/dQw4w9WgXcQ <- helpful video about interview questions
+i dare you write all your code on one line hahahah
+bet
+
+
+Check to see if two provided strings are anagrams of each other. One string is an anagram of another if it uses the same characters in the same quantity. Only consider characters, not spaces or punctuation. Consider capital letters to be the same lower case
+
+word.replace(/[^\w]/g, "")
+
+functions("two", "three") => false 
+
+functions('rail safety', 'fairy tales') => true
+
+functionsName("yo", "o y")  =>
+
+let helper = (w) => {
+    let obj = {}
+    for (let i = 0; i<w.length; i++){
+        if(obj.w[i]){
+            obj.w[i] += 1
+        }
+        else{
+            obj[w[i]]=1
+        }
+    }
+
+    return = obj
+}
+
+let checkAnagram = (str1, str2)=>{
+    let obj1 = helper(str1)
+    let obj2 = helper(str2)
+
+    if (obj1.length != obj2.length){
+        return false
+    }
+    // loop through obj keys and compair values
+    
+
+
+}
+  
+
+Austin 
+goodbye all, it was fun .  I will come and find you. 
+
+Given an array and chunk size, divide the array into many subarrays where each subarray is of length size
+
+
+//divide the array into many subarrays
+//each subarray is of length size
+//find chunk size. 
+
+function chunk(n, arr){
+    let let newArr =[];
+    for(let i=0; i<=arr.length;i++){
+        let subArr=[]
+        for (let i=0; i<=n;i++){
+            subArr.push
+        }
+    }
+    
+}
+
+chunk([1, 2, 3, 4], 2)
+
+[[1, 2], [3, 4]]
+
+chunk([1, 2, 3, 4, 5], 2)
+
+[[1, 2], [3, 4], [5]]
+
+
+chunk([1, 2, 3, 4, 5, 6, 7, 8], 3)
+
+[[1, 2, 3], [4, 5, 6], [7, 8]]
+
+Kipp 
+
+|-------- dough -------->|-------- dough -------->
+|-------- sauce --------> |-- cheese -->
+
+const makePizza = () => {
+    let dough = makeDough()
+    let sauce = makeSauce()
+    let base = Promise.all([dough, sauce])
+}
+
+Consider the following. We want to make a pizza.
+
+// We make the dough independently.
+// We make the sauce independently.
+// We want to be able to taste the sauce, before we decide what kind of cheese is going to work best on the pizza.
+
+api calls
+dough makeDough()   
+sauce makeSauce() 
+grateCheese grateCheese()
+
+
+
+Ryan
+
+ Write a function that takes in a non-empty array of distinct integers and an integer representing a target sum.  If any two numbers in the input array sum up to the target sum, the function should return them in an array, in any order.  If no two numbers sum up to the target sum, the function should return an empty array.  
+
+sample input
+let array = [3, 5, -4, 8, 11, 1, -1, 6] 
+
+targetSum = 10
+
+[-1, 11]  // the numbers could be in reverse order
+
+You can assume that there will be at most one pair of numbers summing up the target sum.
+
+x + y  = targetSum 
+
+x = target - y
+
+cache = {}
+
+const funFun = (arr, targetSum) => {
+    for(let A=0; A<arr.length;A++){
+        if(
+    }
+}
+
+
+Tommy Bahamy
+
+Without using .flat(), create a function to flatten an array 
+
+const exampleArray = [1,2,[3,4, [5,6,7], 8], 9, 10, [11, 12]]
+
+flatten(exampleArray) //[1,2,3,4,5,6,7,8,9,10]
+
+1, 2 ,[3, 4, [, ]]
+let b = [1, 2, 3]
+Array.isArray(b)
+
+... spread  opertor 
+newArr.concat(arr)
+
+const func = (arr)=>{
+
+let newArr = []
+
+    if(arr.length == 0){
+        return newArr
+    }
+    else{
+        
+        for(let i =0; i < arr.length; i++){
+            if(Array.isArray(arr[i])){
+               return newArr.concat(func(arr[i])) 
+            }
+            else{
+                newArr.push(arr[i])
+            }
+        }
+    }
+}
+
