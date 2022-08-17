@@ -16,18 +16,18 @@ After completing this lesson, you will be able to:
 
 ## ⭐️ Pre-Reading ⭐️
 - [Express Templating](https://digitalcrafts.instructure.com/courses/189/pages/reading-express-template-engine?module_item_id=23381)
-<!-- - [Express Middleware](https://learn.digitalcrafts.com/immersive/lessons/back-end-foundations/express-middleware/#learning-objectives) -->
+- [Express Middleware](https://learn.digitalcrafts.com/immersive/lessons/back-end-foundations/express-middleware/#learning-objectives)
 
 <!-- ## 📍Agenda -->
 
-<!-- ## 🟣Labs 
-- [artspeakers](https://github.com/veros-labs/lab-node-ejs-artspeakers) -->
+## 🟣Labs 
+- [artspeakers](https://github.com/veros-labs/lab-node-ejs-artspeakers)
 
-<!-- ## 🟡 Lecture Presentations
-- [EJS](https://dc-houston.herokuapp.com/p2/Node/EJS.html#1) -->
+## 🟡 Lecture Presentations
+- [EJS](https://dc-houston.herokuapp.com/p2/Node/EJS.html#1)
 
-<!-- ## 🟠Homework 
-- [music website](./homework) -->
+## 🟠Homework 
+- [music website](./homework)
 
 ## 🔵Helpful Videos
 - [Setting Up Mustache](https://www.udemy.com/course/nodejs-complete-guide-to-building-data-driven-applications/learn/lecture/14105026#overview)
