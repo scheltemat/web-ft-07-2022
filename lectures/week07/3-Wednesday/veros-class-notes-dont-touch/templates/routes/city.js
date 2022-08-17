@@ -35,9 +35,13 @@ router.get('/city', (req, res)=>{
 router.get('/city/:id', (req, res)=>{
 
 
-    res.render('city',  {})
-})
+    let id = req.params.id; 
 
+    res.render('city',  {
+        cities: [cities[id]], 
+        pictures: [pictures[id]]
+    })
+})
 
 
 module.exports = router;

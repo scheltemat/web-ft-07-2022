@@ -8,13 +8,21 @@
 </head>
 <body>
     
-    city template
+    
+    <br>
+    <h2><a href="/city">Home</a></h2>
+
+    <ul>
+        <% for( let index = 0; index < cities.length; index++ ) { %>
+        
+            <li><a href="/city/<%= index %> "><%= cities[index] %> </a></li>
+        <% } %>
+    </ul>
 
     <% for( let index = 0; index < cities.length; index++ ) { %>
     
         <h1><%= cities[index] %> </h1>
 
-         
         <img src="<%= pictures[index]  %>" width="400px" alt="">
     <% } %> 
 </body>
