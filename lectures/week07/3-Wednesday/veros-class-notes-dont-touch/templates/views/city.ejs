@@ -9,5 +9,13 @@
 <body>
     
     city template
+
+    <% for( let index = 0; index < cities.length; index++ ) { %>
+    
+        <h1><%= cities[index] %> </h1>
+
+         
+        <img src="<%= pictures[index]  %>" width="400px" alt="">
+    <% } %> 
 </body>
 </html>
