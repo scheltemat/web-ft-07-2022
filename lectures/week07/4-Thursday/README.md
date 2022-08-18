@@ -25,7 +25,7 @@ After completing this lesson, you will be able to:
 - [Express Forms & Redirects](https://dc-houston.herokuapp.com/p2/Node/NodeForms.html#1)
 - [Debugging](https://dc-class.herokuapp.com/docs/javascript/debugging.md#1) -->
 
-## 🟣Labs
+<!-- ## 🟣Labs -->
 
 <!-- - [forms lab](https://github.com/veros-labs/lab-node-forms) -->
 
