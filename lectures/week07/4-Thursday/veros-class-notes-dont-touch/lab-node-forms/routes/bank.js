@@ -25,17 +25,50 @@ router.get("/banking", (req, res) => {
   
   router.get('/checkingbalance', (req, res) => {
       
+    // get checking balance of our acccount
+
+    res.json({checkingbalance: db.checking})
       
   });
   
   router.get('/savingsbalance', (req, res) => {
       
-      
+      // get the savings balance of our account
+      res.json({savingsbalance: db.savings})
   });
   
-  router.post('/depositchecking', (req, res) => {
+  router.post('/deposits', (req, res) => {
       
-      
+      // depposit an amountto either saving or cheking
+
+      //get information out of req.body 
+      const {amount, transType} = req.body
+
+    //   console.log(req.body);
+
+    amount = parseFloat(amount);  // this is a float now instead of a string
+    
+
+    if(transType === "checking/deposit"){
+        db.checking = db.checking + amount;
+    }
+    else if(transType === "savings/deposit"){
+        db.savings = db.savings + amount;
+    }
+
+    //create an object with transaction info and push to beginning of transaction array 
+
+    let transaction = {
+        type: transType, 
+        amount: amount, 
+        data: (new Date()).toLocaleString()
+    }
+  
+    //add this object to beginning of our transaction array 
+    
+    db.transactions.unshift(transaction)  
+
+    res.json({checking: db.checking, savings: db.savings})
   
   })
   

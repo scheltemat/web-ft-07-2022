@@ -45,7 +45,22 @@
 
          getCountValue();
 
-         // make api call when user click add button, subtract
+         // make api call when user click add button or when the user clicks on subtract button
+
+         addButton.addEventListener('click', async () => {  
+
+            try{
+                let result = await fetch('/api/counter', {method: 'post'}); 
+                let data = await result.json(); 
+
+                console.log(data)
+                counterValue.textContent = data.value
+            }
+            catch{
+
+            }
+        
+        })
 
     </script>
 </body>
