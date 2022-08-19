@@ -16,7 +16,7 @@ let db = {
         amount: 123, 
         date: (new Date()).toLocaleString()
     }
-]
+    ]
 }
 
 router.get("/banking", (req, res) => {
@@ -42,10 +42,11 @@ router.get("/banking", (req, res) => {
       // depposit an amountto either saving or cheking
 
       //get information out of req.body 
-      const {amount, transType} = req.body
+      let {amount, transType} = req.body
 
     //   console.log(req.body);
 
+    
     amount = parseFloat(amount);  // this is a float now instead of a string
     
 
@@ -61,7 +62,7 @@ router.get("/banking", (req, res) => {
     let transaction = {
         type: transType, 
         amount: amount, 
-        data: (new Date()).toLocaleString()
+        date: (new Date()).toLocaleString()
     }
   
     //add this object to beginning of our transaction array 
