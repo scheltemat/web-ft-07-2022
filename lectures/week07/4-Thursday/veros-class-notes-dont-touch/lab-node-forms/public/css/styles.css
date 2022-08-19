@@ -59,3 +59,27 @@
   text-decoration: underline;
 }
 
+/* form data */
+
+#bankingForm{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#basicForm{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#counter{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonSpacing{
+  margin: 10px;
+}
