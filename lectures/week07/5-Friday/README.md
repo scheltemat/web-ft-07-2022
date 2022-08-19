@@ -21,7 +21,7 @@ After completing this lesson, you will be able to:
 
 <!-- ## 🟣Labs -->
 
-[socket.io starter](https://github.com/DigitalCraftsStudents/socketio_starter)
+- [socket.io starter](https://github.com/DigitalCraftsStudents/socketio_starter)
 
 ## 🟠Homework 
 - Integrate a chat feature in your band website
