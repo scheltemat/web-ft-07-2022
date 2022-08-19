@@ -7,6 +7,9 @@ const fs = require('fs');//read and write to a file on file system
 
 const feedbackData = require('../data/feedback.json');  // node will convert to an object
 
+router.use(express.json())
+router.use(express.urlencoded({extended: true}))
+
 //display form
 router.get('/feedback', (req, res) => { 
     
