@@ -5,7 +5,10 @@
 ## 📍Learning Objectives
 After completing this lesson, you will be able to:
 
-- [ ] 
+- [ ] Create database tables
+- [ ] Insert, Retrieve, Update, and Delete data
+- [ ] Construct tables with related data using Foreign Keys
+- [ ] Write subqueries and joins for retrieving data from multiple tables 
 
 ## ⭐️ Pre-Reading ⭐️
 - [Data Modeling](https://digitalcrafts.instructure.com/courses/189/pages/reading-data-modeling?module_item_id=23405)
