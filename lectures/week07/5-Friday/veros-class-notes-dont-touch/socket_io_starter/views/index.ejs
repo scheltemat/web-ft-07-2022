@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>socket.io</title>
+</head>
+<body>
+    
+    <form>
+
+        <input type="text" id="chat">
+        <input type="submit">
+    </form>
+
+
+    <ul id="messages">
+
+    </ul>
+
+    <!-- Install client side socket.io -->
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script>
+
+        // setup a socket
+       let socket = io('http://localhost:3000')
+
+        const messages = document.getElementById('messages'); 
+        const form = document.querySelector('form');
+        const inputField = document.getElementById('chat')
+
+        //emit a message from the server 
+        form.addEventListener('submit', e=>{
+
+            e.preventDefault(); 
+
+            socket.emit('msgFromClient', inputField.value)
+
+            inputField.value = ""
+        })
+
+        //listen to incoming messages form the server
+        //on is an event listner it listent for the server event
+
+        socket.on('msgFromServer', serverMessage=>{
+
+            // console.log(serverMessage)
+
+            //create li tags with new messaeg 
+            //append to innerHTML of ul
+
+            let liTag = `<li>${serverMessage}</li>`
+
+            messages.innerHTML = liTag + messages.innerHTML
+        })
+
+
+    </script>
+</body>
+</html>
