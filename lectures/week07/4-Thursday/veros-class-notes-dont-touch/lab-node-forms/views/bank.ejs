@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <%- include ('partials/nav.ejs') %> 
+
+    
+    <!-- <form id="bankingForm"  action="/deposits" method="post" >
+        <input name="amount" id="amount" type="text">
+
+        <select name="transType" id="transType">
+            <option value="checking/deposit">Checking</option>
+            <option value="savings/deposit">Savings</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form> -->
+
+
+    <form id="bankingForm" >
+        <input name="amount" id="amount" type="text">
+
+        <select name="transType" id="transType">
+            <option value="checking/deposit">Checking</option>
+            <option value="savings/deposit">Savings</option>
+        </select>
+
+        <h1 id="CheckingBalance"></h1>
+        <h1 id="SavingsBalance"></h1>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    
+    <script>
+
+        // grab dom elements 
+        let bankingForm = document.querySelector('#bankingForm')
+        let amount = document.querySelector('#amount')
+        let transType = document.querySelector('#transType')
+
+        let checkingBalance = document.querySelector('#CheckingBalance')
+        let savingsBalance = document.querySelector('#SavingsBalance')
+
+        //take form and put event listenter on the form (submit)
+
+        bankingForm.addEventListener('submit', async (e)=>{
+
+            e.preventDefault()  //prevent the default behavior of our form
+            // make an object that hold trantype and amount 
+
+            console.log(amount.value, transType.value)
+
+            let newTransaction = {
+                amount: amount.value, 
+                transType: transType.value
+            }
+            //make a fetch change the method to post 
+            //attach a payload to the fecth request
+            // html, text, immg, video
+
+            let result = await fetch('/deposits', {
+
+                method: 'POST', 
+                headers: {'Content-type': 'application/json; charset=UTF-8'}, 
+                body: JSON.stringify(newTransaction)
+            })
+
+            let balance = await result.json()
+
+            console.log(balance)
+
+            //get results back , display our information
+
+            checkingBalance.textContent = balance.checking; 
+            savingsBalance.textContent = balance.savings; 
+
+
+        })
+         
+
+
+    </script>
+</body>
+
+</html>
