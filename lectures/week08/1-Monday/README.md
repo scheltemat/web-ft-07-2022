@@ -14,9 +14,9 @@ After completing this lesson, you will be able to:
 - [Data Modeling](https://digitalcrafts.instructure.com/courses/189/pages/reading-data-modeling?module_item_id=23405)
 
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [PostgresSQL](https://dc-houston.herokuapp.com/p2/Postgres/PostgresSQL.html#1)
-- [Aggregation](https://dc-houston.herokuapp.com/p2/Postgres/Aggregation.html#1) -->
+- [Aggregation](https://dc-houston.herokuapp.com/p2/Postgres/Aggregation.html#1)
 
 <!-- ## 🟣Labs  -->
 
