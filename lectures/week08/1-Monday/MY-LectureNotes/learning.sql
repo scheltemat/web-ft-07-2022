@@ -1,8 +1,8 @@
 
--- INSERT INTO student VALUES (
+INSERT INTO student VALUES (
 
---   'Joy', 'joyhe@dc.com', 'joyhe@github.com', 10, 'F', '2022-07-05', FALSE
--- );
+  'Joy', 'joyhe@dc.com', 'joyhe@github.com', 10, 'F', '2022-07-05', FALSE
+);
 
 -- INSERT INTO student VALUES 
 
@@ -70,7 +70,7 @@
 
 -- SELECT * FROM student ORDER BY gender LIMIT 5 OFFSET 1 * 5
 
-DROP TABLE restaurant;
+-- DROP TABLE restaurant;
 
 -- CREATE TABLE restaurant (
 --     1
