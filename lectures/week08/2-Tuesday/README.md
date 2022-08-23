@@ -12,7 +12,7 @@ After completing this lesson, you will be able to:
 
 
 ## ⭐️ Pre-Reading ⭐️
-- [Data Modeling](https://learn.digitalcrafts.com/immersive/lessons/databases/data-modeling/#learning-objectives)
+- [Data Modeling](https://digitalcrafts.instructure.com/courses/212/pages/reading-data-modeling?module_item_id=39483)
 
 
 
