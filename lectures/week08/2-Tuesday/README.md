@@ -16,15 +16,16 @@ After completing this lesson, you will be able to:
 
 
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [PostgreSQL Associations](https://dc-houston.herokuapp.com/p2/Postgres/Relationships.html#1)
-- [Distincts & Subselects](https://dc-houston.herokuapp.com/p2/Postgres/DisctincsSubSelects.html#1) -->
+- [Distincts & Subselects](https://dc-houston.herokuapp.com/p2/Postgres/DisctincsSubSelects.html#1)
 
-<!-- ## 🟣Labs 
-[Labs](https://github.com/veros-labs/lab-sql-employees-db) -->
+## 🟣Labs
+- [data](https://github.com/veros-labs/lab-sql-products)
+- [employee db](https://github.com/veros-labs/lab-sql-employees-db)
 
-<!-- ## 🟠Homework 
-[Homework](./homework) -->
+## 🟠Homework 
+[Homework](./homework)
 
 ## 🔵Helpful Videos
 - [PostgreSQL:  What Is A Relationship/Foreign Keys | Course | 2019](https://www.youtube.com/watch?v=SHjoXOQeNi4)
