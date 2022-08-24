@@ -11,13 +11,13 @@ const app = express();
 
 const db = require('./models/database');  //instance of our db connection
 
+console.log(db);
 const port = 3000;
 
 app.set('view engine', 'ejs')
 
 app.use(require('./routes/index'));
-
-
+app.use(require('./routes/newDish'))
 
 // db.query('SELECT * FROM categories')
 // .then(results =>{  // [{}, {}, {}, {}, {}]
@@ -53,8 +53,25 @@ const categories = async () => {
 
 }
 
-categories()
+// categories()
 
+
+const insertCategoryItem = async (categoryName) => {
+    
+    // let results = await db.result(`INSERT INTO categories VALUES (DEFAULT, '${categoryName}')`)
+
+
+    // sanitize our inserts
+
+    let results = await db.result(`INSERT INTO categories VALUES (DEFAULT, $1)`, [categoryName])
+
+
+    console.log(results);
+
+}
+
+
+// insertCategoryItem('Moroccan')
 
 app.listen(port, ()=>{
     console.log(`running on port ${port}`);
