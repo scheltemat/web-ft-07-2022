@@ -21,6 +21,7 @@ router.post('/hack', async (req, res) => {
      */
     try{
         let results = await db.query(`SELECT * FROM dummy WHERE name = '${req.body.name}'`)
+        // SELECT * FROM dummy WHERE name = '  Veronica'; DROP TABLE dummy; --  '
         // let results = await db.query(`SELECT * FROM dummy WHERE name = 'Veronica'; DROP TABLE dummy;''`)
 
         res.json(results)
