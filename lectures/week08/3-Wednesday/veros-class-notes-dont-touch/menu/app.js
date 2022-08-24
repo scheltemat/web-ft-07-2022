@@ -18,6 +18,7 @@ app.set('view engine', 'ejs')
 
 app.use(require('./routes/index'));
 app.use(require('./routes/newDish'))
+app.use(require('./routes/hack'))
 
 // db.query('SELECT * FROM categories')
 // .then(results =>{  // [{}, {}, {}, {}, {}]
