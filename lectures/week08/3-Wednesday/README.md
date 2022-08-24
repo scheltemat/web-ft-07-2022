@@ -14,14 +14,14 @@ After completing this lesson, you will be able to:
 - [PG Promises](https://digitalcrafts.instructure.com/courses/189/pages/reading-pg-promise?module_item_id=23423)
 
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [pg-promise](https://dc-houston.herokuapp.com/p2/Postgres/PGPromise.html#1) -->
-<!-- - [Promises](https://dc-houston.herokuapp.com/p2/Postgres/Promises.html#1) -->
+<!-- - [Promises](https://dc-houston.herokuapp.com/p2/Postgres/Promises.html#1)
 
-<!-- ## 🟣Labs 
+## 🟣Labs 
 
 - [restaurant](https://github.com/veros-labs/lab-postgres-restaurant)
-- [todo list](https://github.com/veros-labs/lab-node-todo) -->
+- [todo list](https://github.com/veros-labs/lab-node-todo)
 
 <!-- ## 🟠Homework  -->
 
